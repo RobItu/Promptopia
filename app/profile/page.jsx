@@ -23,7 +23,7 @@ const MyProfile = () => {
     <Profile
       name="My"
       description="Welcome to your profile!"
-      data={[]}
+      data={posts}
       handleEdit={handleEdit}
       handleDelete={handleDelete}
     />
