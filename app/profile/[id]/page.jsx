@@ -14,15 +14,12 @@ const UserProfile = () => {
   const parts = pathname.split("/"); // Split the URL by "/"
   const id = parts[parts.length - 1]; // Get the last part of the array
 
-  console.log(id);
-
   useEffect(() => {
     const fetchPosts = async () => {
       const response = await fetch(`/api/users/${id}/posts`);
       const data = await response.json();
 
       setUsername(data[0].creator.username);
-      console.log(username);
 
       setPosts(data);
     };
