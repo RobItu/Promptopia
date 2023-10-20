@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This is my second NextJS project. From this I learned how to create a searchbar, use the Mongoose Database, create a navigation bar, work with dynamic routing and APIs, and much more!
 
 ## Getting Started
 
